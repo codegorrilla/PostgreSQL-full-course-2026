@@ -20,4 +20,10 @@ CREATE TABLE basics.students(
     -- TIMESTAMP => stores date and time format
     -- default means if u dont give any value it will take the current date and time
     create_at TIMESTAMP DEFAULT NOW()
-)
+);
+
+--insert some data => query
+INSERT INTO basics.students(name, email, age)
+VALUES
+    ('Sanjib Adhya', 'code.gorrilla@gmail.com', 43),
+    ('Rishaan Sen Adhya', 'sanjib.adhya@zacksindia.com', 20);
