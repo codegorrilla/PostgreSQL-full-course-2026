@@ -11,5 +11,6 @@
 
 SELECT name, category, is_active, description
 FROM products
-WHERE is_active = true AND description IS NULL;
+WHERE is_active = true 
+AND description IS NULL;
 

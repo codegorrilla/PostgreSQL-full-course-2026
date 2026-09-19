@@ -5,7 +5,7 @@
 -- SELECT name, category, price, stock
 -- FROM products;
 
---aliases =>  AS creates and alias for the output of the column name
+-- aliases =>  AS creates and alias for the output of the column name
 -- makes the col name easier to read
 
 SELECT
